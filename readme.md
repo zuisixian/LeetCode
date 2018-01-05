@@ -18,3 +18,12 @@
 
 count++<8 因为每次处理4为，int总共32位，一共8次就可以处理完。
  0xF的二进制为0b1111, 所以每四位bits&0xf就等于他自己。
+
+## 2018/1/5
+* [406. Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/discuss/89345/)
+
+[思路](https://leetcode.com/problems/queue-reconstruction-by-height/discuss/89345/)
+
+先把身高最高的先排序，k值大的靠后。
+然后把第二高的插入进去。
+依次第三、第四...完成排序。
