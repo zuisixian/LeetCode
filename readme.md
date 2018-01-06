@@ -27,3 +27,9 @@ count++<8 因为每次处理4为，int总共32位，一共8次就可以处理完
 先把身高最高的先排序，k值大的靠后。
 然后把第二高的插入进去。
 依次第三、第四...完成排序。
+
+## 2018/1/6
+
+* [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)
+
+统计数量为奇数的字符，然后用总的字符减去这些数量再+(奇数>0)
