@@ -33,3 +33,7 @@ count++<8 因为每次处理4为，int总共32位，一共8次就可以处理完
 * [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)
 
 统计数量为奇数的字符，然后用总的字符减去这些数量再+(奇数>0)
+## 2018/1/7
+
+* [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/)
+比较简单，可以看看C语言/python怎么写的。
