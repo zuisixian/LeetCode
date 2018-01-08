@@ -43,3 +43,7 @@ count++<8 因为每次处理4为，int总共32位，一共8次就可以处理完
 * [415 Add Strings](https://leetcode.com/problems/add-strings/description/)
 
 直接从低位(string中索引最高)相加，最后reverse。
+
+* [43 Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)
+之前校招已经刷过一次，有时间再刷一回
+> [参考blog](http://www.cnblogs.com/grandyang/p/4395356.html)
