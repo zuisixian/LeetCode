@@ -37,3 +37,9 @@ count++<8 因为每次处理4为，int总共32位，一共8次就可以处理完
 
 * [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/)
 比较简单，可以看看C语言/python怎么写的。
+
+## 2018/1/8
+
+* [415 Add Strings](https://leetcode.com/problems/add-strings/description/)
+
+直接从低位(string中索引最高)相加，最后reverse。
