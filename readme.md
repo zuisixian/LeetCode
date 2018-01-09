@@ -47,3 +47,13 @@ count++<8 因为每次处理4为，int总共32位，一共8次就可以处理完
 * [43 Multiply Strings](https://leetcode.com/problems/multiply-strings/description/)
 之前校招已经刷过一次，有时间再刷一回
 > [参考blog](http://www.cnblogs.com/grandyang/p/4395356.html)
+
+## 2018/1/9
+
+* [414 Third Maximum Number](https://leetcode.com/problems/third-maximum-number/description/)
+
+需要熟练使用标准库，set刚好非常适用于此题。也可以适用vector,自己手动维护里面3个值得大小顺序。
+
+
+
+
