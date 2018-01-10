@@ -54,6 +54,8 @@ count++<8 因为每次处理4为，int总共32位，一共8次就可以处理完
 
 需要熟练使用标准库，set刚好非常适用于此题。也可以适用vector,自己手动维护里面3个值得大小顺序。
 
+## 2019/1/10
 
+*  [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)
 
-
+> bits的第i位为1的话表示此数组里面存在组合使得该组合的和为i。
