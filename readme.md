@@ -59,3 +59,8 @@ count++<8 因为每次处理4为，int总共32位，一共8次就可以处理完
 *  [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)
 
 > bits的第i位为1的话表示此数组里面存在组合使得该组合的和为i。
+
+## 2019/1/11
+* [434. Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/description/)
+
+这个题比较简单
