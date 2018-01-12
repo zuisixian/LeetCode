@@ -64,3 +64,7 @@ count++<8 因为每次处理4为，int总共32位，一共8次就可以处理完
 * [434. Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/description/)
 
 这个题比较简单
+
+## 2019/1/12
+* [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)
+DFS算法，需要好好研究相关问题
