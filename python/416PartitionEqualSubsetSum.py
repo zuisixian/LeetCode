@@ -16,6 +16,7 @@ class Solution(object):
         for num in nums:
             sum_val += num
             bits |= bits << num
-        #返回值必须转化为bool，不然输入为0或1，不是false or true。
+        return bool((not sum_val&1) and (bits >> (sum_val//2)) & 1)
 
-        return boo((not sum_val&1) and (bits >> (sum_val//2)) & 1)
+if __name__ == "__main__":
+    print("hello")
