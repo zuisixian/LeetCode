@@ -70,3 +70,9 @@ count++<8 因为每次处理4为，int总共32位，一共8次就可以处理完
 DFS算法，需要好好研究相关问题
 
 ## 2019/1/13
+
+## 2019/1/14
+* [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)
+
+同[442Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/.)
+遍历 index为value-1处将value置位相反数，那么1-n中没有遍历的index初的值就还是正数，这些值就是nums中没有出现的值。
