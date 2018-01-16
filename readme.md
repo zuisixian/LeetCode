@@ -78,8 +78,12 @@ DFS算法，需要好好研究相关问题
 同[442Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/.)
 遍历 index为value-1处将value置位相反数，那么1-n中没有遍历的index初的值就还是正数，这些值就是nums中没有出现的值。
 
-## 2019/1/5
+## 2019/1/15
 
 * [423. Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/description/)
 
 找到每个数字英文字母的特殊性，也就是独有的字母，如果字母非独有，那就总数减去已知数字中含有该字母的数量。
+
+## 2019/1/16
+* [453. Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/)
+数学问题
