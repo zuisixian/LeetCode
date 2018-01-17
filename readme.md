@@ -87,3 +87,6 @@ DFS算法，需要好好研究相关问题
 ## 2019/1/16
 * [453. Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/)
 数学问题
+
+## 2019/1/17
+* [443. String Compression](https://leetcode.com/problems/string-compression/description/)     [**solution**](/source/443StringCompression.md)
