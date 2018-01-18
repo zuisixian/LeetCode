@@ -85,7 +85,7 @@ DFS算法，需要好好研究相关问题
 找到每个数字英文字母的特殊性，也就是独有的字母，如果字母非独有，那就总数减去已知数字中含有该字母的数量。
 
 ## 2019/1/16
-* [453. Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/)
+* [453. Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/) [**solution**](/source/453MinimumMovestoEqualArrayElements.md)
 数学问题
 
 ## 2019/1/17
