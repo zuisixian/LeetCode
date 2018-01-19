@@ -96,3 +96,9 @@ DFS算法，需要好好研究相关问题
 *  [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/discuss/92624/)
 
 [**solution**](/source/445AddTwoNumbersII.md)
+
+## 2019/1/19
+
+*   [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/description/)
+
+[**Solution**](source/402RemoveKDigits.md)
