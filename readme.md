@@ -68,3 +68,37 @@ count++<8 因为每次处理4为，int总共32位，一共8次就可以处理完
 ## 2019/1/12
 * [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)
 DFS算法，需要好好研究相关问题
+
+## 2019/1/13
+待完成
+
+## 2019/1/14
+* [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/)
+
+同[442Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/.)
+遍历 index为value-1处将value置位相反数，那么1-n中没有遍历的index初的值就还是正数，这些值就是nums中没有出现的值。
+
+## 2019/1/15
+
+* [423. Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english/description/)
+
+找到每个数字英文字母的特殊性，也就是独有的字母，如果字母非独有，那就总数减去已知数字中含有该字母的数量。
+
+## 2019/1/16
+* [453. Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/) [**solution**](/source/453MinimumMovestoEqualArrayElements.md)
+数学问题
+
+## 2019/1/17
+* [443. String Compression](https://leetcode.com/problems/string-compression/description/)     [**solution**](/source/443StringCompression.md)
+
+
+## 2019/1/18
+*  [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/discuss/92624/)
+
+[**solution**](/source/445AddTwoNumbersII.md)
+
+## 2019/1/19
+
+*   [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/description/)
+
+[**Solution**](source/402RemoveKDigits.md)
