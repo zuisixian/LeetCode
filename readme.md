@@ -102,3 +102,11 @@ DFS算法，需要好好研究相关问题
 *   [402. Remove K Digits](https://leetcode.com/problems/remove-k-digits/description/)
 
 [**Solution**](source/402RemoveKDigits.md)
+
+## 2019/1/20
+
+* [403. Frog Jump](https://leetcode.com/problems/frog-jump/)
+[solution](source/403FrogJump.cpp)
+
+使用DFS 外加 map来记录在每个位置不同步长情况下是否能到达对端。
+map<int,bool> m; key = i + step<<11;
