@@ -1,6 +1,7 @@
 # .idea
 *.xml
 .idea
+.D*
 
 
 # Prerequisites
