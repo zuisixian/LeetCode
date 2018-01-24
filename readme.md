@@ -123,6 +123,11 @@ TODO:使用DFS 外加 map来记录在每个位置不同步长情况下是否能�
 * [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/description/)
 [solution](source/438FindAllAnagramsInAString.md)
 
-## 2019/1/22
+## 2019/1/23
 * [441. Arranging Coins](https://leetcode.com/problems/arranging-coins/description/)
 [solution](source/441ArrangingCoins.md)
+
+## 2019/1/24
+
+* [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/)
+[solution](source/442FindAllDuplicatesinanArray.cpp)
