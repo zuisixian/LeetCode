@@ -131,3 +131,9 @@ TODO:使用DFS 外加 map来记录在每个位置不同步长情况下是否能�
 
 * [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/)
 [solution](source/442FindAllDuplicatesinanArray.cpp)
+
+## 2018/1/25
+
+*  [697. Degree of an Array](https://leetcode.com/problems/degree-of-an-array/description/)
+
+[solution](source/697DegreeofanArray.cpp)
