@@ -147,3 +147,4 @@ TODO:使用DFS 外加 map来记录在每个位置不同步长情况下是否能�
 * [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/)
 **TODO** 复习map相关用法
 使用`stack`，维持stack里面是降序的，也就是第一个数(栈底)是最大的(root)，然后新的数与栈顶-->栈底的数以此比较，如果新的数较小，直接push_back，设为栈顶数的rightchild,如果比栈的数大，这栈的数为新数的leftchild，pop_back，然后push_back新数。
+[solution](source/654MaximumBinaryTree.md)
