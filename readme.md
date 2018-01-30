@@ -158,3 +158,8 @@ TODO:使用DFS 外加 map来记录在每个位置不同步长情况下是否能�
 [653. Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/) [soluiton](source/653TwoSumIV-InputisaBST.md)
 
 二叉搜索树
+## 2018/1/30
+
+[538. Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)
+[solution](source/538.ConvertBSTtoGreaterTree.cpp)
+inorder search
