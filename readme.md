@@ -183,3 +183,8 @@ inorder search
 [pysolution](python/454.4SumII.py)
 
 todo:**Python Algorithm: Mastering Basic Algorithms in the Python Language**
+
+## 2018/2/3
+[658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)
+[solution](source/658. Find K Closest Elements.cpp)
+二分法查找arr[index]，比arr[index+k]离x更近。
