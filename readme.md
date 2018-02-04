@@ -186,5 +186,12 @@ todo:**Python Algorithm: Mastering Basic Algorithms in the Python Language**
 
 ## 2018/2/3
 [658. Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/description/)
-[solution](source/658. Find K Closest Elements.cpp)
+[solution](source/658.%20Find%20K%20Closest%20Elements.cpp)
 二分法查找arr[index]，比arr[index+k]离x更近。
+
+## 2018/2/4
+
+[567. Permutation in String](https://leetcode.com/problems/permutation-in-string/description/)
+[solution](source/567.PermutationinString.cpp)
+
+[参考](https://leetcode.com/problems/permutation-in-string/discuss/102590/8-lines-slide-window-solution-in-Java)
