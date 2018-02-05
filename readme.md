@@ -195,3 +195,14 @@ todo:**Python Algorithm: Mastering Basic Algorithms in the Python Language**
 [solution](source/567.PermutationinString.cpp)
 
 [参考](https://leetcode.com/problems/permutation-in-string/discuss/102590/8-lines-slide-window-solution-in-Java)
+
+## 2018/2/5
+
+[446. Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/description/)
+
+[cpp solution](source/446.ArithmeticSlicesII-Subsequence.cpp)
+
+[python solution](python/446.ArithmeticSlicesII-Subsequence.py)
+> DP[i][d] = the number of arithmetic subsequences ending with A[i], difference is d. (NOTE here the length of valid subsequences can be 2)
+
+[参考](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/discuss/92850/O(N2)-MLETLE-in-C++-Try-this-one-Concise-and-Fast.)
