@@ -210,3 +210,7 @@ todo:**Python Algorithm: Mastering Basic Algorithms in the Python Language**
 ## 2018/2/6
 [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/description/)
 [solution](source/463.IslandPerimeter.cpp)
+
+## 2018/2/7
+[695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)
+[solution](source/695.MaxAreaofIsland.cpp)
