@@ -218,3 +218,10 @@ todo:**Python Algorithm: Mastering Basic Algorithms in the Python Language**
 ## 2018/2/8
 [747. Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/)
 [solution](source/747.LargestNumberAtLeastTwiceofOthers.cpp)
+
+## 2018/2/8
+[561. Array Partition I](https://leetcode.com/problems/array-partition-i/description/)
+[solution](source/561.ArrayPartitionI.cpp)
+
+**TODO**
+复习multiset的用法。
