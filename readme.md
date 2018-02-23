@@ -238,3 +238,14 @@ todo:**Python Algorithm: Mastering Basic Algorithms in the Python Language**
 ## 2018/2/12
 
 prepare to go home!
+
+## 2018/2/13
+
+2018年，开工！
+
+[476. Number Complement](https://leetcode.com/problems/number-complement/description/)
+
+[solution](source/476.NumberComplement.cpp)
+
+1. 使用mask来标记leading zero.
+2. 按位XOR(i<<num).
