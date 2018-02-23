@@ -9,9 +9,9 @@
 
 直接使用递归，3行就可以解决.
 
-- [] 可以使用循环或者BFS来做？
+-[] 可以使用循环或者BFS来做？
 
-- [] 使用python来做？
+-[] 使用python来做？
 
 ## 2018/1/4
 * [405 Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)
@@ -239,7 +239,7 @@ todo:**Python Algorithm: Mastering Basic Algorithms in the Python Language**
 
 prepare to go home!
 
-## 2018/2/13
+## 2018/2/23
 
 2018年，开工！
 
