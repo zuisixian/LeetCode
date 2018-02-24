@@ -259,4 +259,5 @@ for (auto& item:nums)
     sum = (sum+item)*item;// so brilliant
     if(max<sum){max=sum;}
 }
+//so clover
 ```
