@@ -249,3 +249,14 @@ prepare to go home!
 
 1. 使用mask来标记leading zero.
 2. 按位XOR(i<<num).
+
+[485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)
+[solution](source/485.MaxConsecutiveOnes.cpp)
+
+``` C++
+for (auto& item:nums)
+{
+    sum = (sum+item)*item;// so brilliant
+    if(max<sum){max=sum;}
+}
+```
