@@ -250,14 +250,31 @@ prepare to go home!
 1. 使用mask来标记leading zero.
 2. 按位XOR(i<<num).
 
+## 2018/2/24
 [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)
 [solution](source/485.MaxConsecutiveOnes.cpp)
 
 ``` C++
 for (auto& item:nums)
 {
-    sum = (sum+item)*item;// so brilliant
+    sum = (sum+item)* item;// so brilliant
     if(max<sum){max=sum;}
 }
 //so clover
+```
+## 2018/2/24
+
+
+[500. Keyboard Row](https://leetcode.com/problems/keyboard-row/description/)  [solution](source/500.KeyboardRow.cpp)
+
+``` python
+class Solution(object):
+    def findWords(self, words):
+        """
+        :type words: List[str]
+        :rtype: List[str]
+        """
+        return filter(re.compile('(?i)([qwertyuiop]*|[asdfghjkl]*|[zxcvbnm]*)$').match,words)
+
+**TODO** `(?i)`是什么意思
 ```
