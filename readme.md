@@ -278,3 +278,10 @@ class Solution(object):
 
 **TODO** `(?i)`是什么意思
 ```
+
+## 2018/2/26
+
+* [482. License Key Formatting](https://leetcode.com/problems/license-key-formatting/description/)
+[solution](source/482.LicenseKeyFormatting.cpp)
+
+从end->start处理然后再reverse。
