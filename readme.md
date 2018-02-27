@@ -285,3 +285,7 @@ class Solution(object):
 [solution](source/482.LicenseKeyFormatting.cpp)
 
 从end->start处理然后再reverse。
+
+## 2018/2/27
+*  [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)
+[solution](source/496.NextGreaterElementI.cpp)
