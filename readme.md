@@ -289,3 +289,7 @@ class Solution(object):
 ## 2018/2/27
 *  [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)
 [solution](source/496.NextGreaterElementI.cpp)
+
+## 2018/2/28
+*   [504. Base 7](https://leetcode.com/problems/base-7/description/)
+[solution](source/504.Base7.cpp)
