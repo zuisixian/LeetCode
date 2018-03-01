@@ -293,3 +293,7 @@ class Solution(object):
 ## 2018/2/28
 *   [504. Base 7](https://leetcode.com/problems/base-7/description/)
 [solution](source/504.Base7.cpp)
+
+## 2018/3/1
+*  [507. Perfect Number](https://leetcode.com/problems/perfect-number/description/)
+[solution](source/507.PerfectNumber.cpp)
