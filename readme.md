@@ -297,3 +297,11 @@ class Solution(object):
 ## 2018/3/1
 *  [507. Perfect Number](https://leetcode.com/problems/perfect-number/description/)
 [solution](source/507.PerfectNumber.cpp)
+
+## 2018/3/2
+* [520. Detect Capital](https://leetcode.com/problems/detect-capital/description/)
+
+[solution](source/520.DetectCapital.cpp)
+
+* 可以使用正则表达式
+`regex_match(word, regex("[A-Z]+|[a-z]+|[A-Z][a-z]*"))`
