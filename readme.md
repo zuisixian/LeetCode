@@ -310,3 +310,8 @@ class Solution(object):
 * [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/)
 
 [solution](source/541.ReverseStringII.cpp)
+
+## 2018/3/4
+* [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)
+
+[solution](source/543.DiameterofBinaryTree.cpp)
