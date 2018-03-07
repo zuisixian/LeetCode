@@ -326,3 +326,8 @@ class Solution(object):
 * [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/description/)
 
 [solution](source/576.OutofBoundaryPaths.cpp)
+
+## 2018/3/7
+* [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)
+
+[solution](source/501.FindModeinBinarySearchTree.cpp)
