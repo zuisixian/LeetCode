@@ -331,3 +331,11 @@ class Solution(object):
 * [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)
 
 [solution](source/501.FindModeinBinarySearchTree.cpp)
+
+## 2019/3/10
+
+* [551. StudentAttendanceRecordI](https://leetcode.com/problems/student-attendance-record-i/)
+
+**思路**： 直接判断是否有两个`A`或者连续3个`L`
+
+[solution](source/551StudentAttendanceRecordI.cpp)
