@@ -339,3 +339,11 @@ class Solution(object):
 **思路**： 直接判断是否有两个`A`或者连续3个`L`
 
 [solution](source/551StudentAttendanceRecordI.cpp)
+
+## 2019/3/11
+
+* [552. Student Attendance Record II](https://leetcode.com/problems/student-attendance-record-ii/)
+
+**思路**:动态规划，太难了。。
+
+[solution](source/552.StudentAttendanceRecordII.cpp)
