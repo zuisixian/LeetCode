@@ -347,3 +347,13 @@ class Solution(object):
 **思路**:动态规划，太难了。。
 
 [solution](source/552.StudentAttendanceRecordII.cpp)
+
+## 2019/3/12
+* [553. Optimal Division](https://leetcode.com/problems/optimal-division/)
+
+**思路**:
+1. 这个答案是固定的，x1/x2/x3..../xn,其中x1肯定是被除数，x2肯定是除数，要想最大化，就需要将x3,x4
+, x5 都是成绩，也就是这样的结果： x1/(x2/x3/.../xn) = x1/x2  *x3* x4* ...* xn;
+2. 可以使用[动态规划](https://leetcode.com/problems/optimal-division/discuss/207538/C%2B%2B-DP-0-ms-beats-100)
+
+[solution](source/553.OptimalDivision.cpp)
