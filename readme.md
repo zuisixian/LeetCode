@@ -357,3 +357,10 @@ class Solution(object):
 2. 可以使用[动态规划](https://leetcode.com/problems/optimal-division/discuss/207538/C%2B%2B-DP-0-ms-beats-100)
 
 [solution](source/553.OptimalDivision.cpp)
+
+## 2019/3/13
+* [554.Brick Wall](https://leetcode.com/problems/brick-wall)
+
+**思路**: 对每行从左到右记录每块砖的累计长度，用map来表示每个距离出现的次数，遍历所有行，得到每个距离与其出现的次数，取最大者，用总函数减去该值即可
+
+[solution](source/554.BrickWall.cpp)
