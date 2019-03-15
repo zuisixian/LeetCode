@@ -364,3 +364,11 @@ class Solution(object):
 **思路**: 对每行从左到右记录每块砖的累计长度，用map来表示每个距离出现的次数，遍历所有行，得到每个距离与其出现的次数，取最大者，用总函数减去该值即可
 
 [solution](source/554.BrickWall.cpp)
+
+## 2019/3/14
+
+* [506. Relative Ranks](https://leetcode.com/problems/relative-ranks/)
+
+**思路**:使用优先队列来排序，存储nums[i]和其位置i
+
+[solution](source/506.RelativeRanks.cpp)
