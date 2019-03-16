@@ -372,3 +372,25 @@ class Solution(object):
 **思路**:使用优先队列来排序，存储nums[i]和其位置i
 
 [solution](source/506.RelativeRanks.cpp)
+
+## 2019/3/15
+
+* [547. Friend Circles](https://leetcode.com/problems/friend-circles/)
+
+**思路**:
+1. 动态规划
+2. *todo*:并查集
+
+
+[solution](source/547.FriendCircles.cpp)
+
+## 2019/3/16
+
+* [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)
+
+
+**思路**:
+1. 从右往左边，宽度优先搜索加入队列中，则队列中最后的指就是最底层中最左边的值。
+2. 深度优先搜索，同depth中只取最左边的值。
+
+[solution](source/513.FindBottomLeftTreeValue.cpp)
