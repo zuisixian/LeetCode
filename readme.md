@@ -394,3 +394,10 @@ class Solution(object):
 2. 深度优先搜索，同depth中只取最左边的值。
 
 [solution](source/513.FindBottomLeftTreeValue.cpp)
+
+##2 2019/3/17
+* [526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)
+**思路**:在每个位置尝试每个number,使用dfs来遍历，已经遍历过的数组用visited数组来标记，知道全部完成遍历
+
+
+[solution](source/526.BeautifulArrangement.cpp)
