@@ -395,9 +395,17 @@ class Solution(object):
 
 [solution](source/513.FindBottomLeftTreeValue.cpp)
 
-##2 2019/3/17
+## 2 2019/3/17
 * [526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)
 **思路**:在每个位置尝试每个number,使用dfs来遍历，已经遍历过的数组用visited数组来标记，知道全部完成遍历
 
 
 [solution](source/526.BeautifulArrangement.cpp)
+
+## 2019/3/18
+
+* [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
+**思路**:
+1. 使用streamstream来分割字符串.
+
+[solution](source/557.ReverseWordsinaStringIII.cpp)
