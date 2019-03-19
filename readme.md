@@ -409,3 +409,13 @@ class Solution(object):
 1. 使用streamstream来分割字符串.
 
 [solution](source/557.ReverseWordsinaStringIII.cpp)
+
+
+## 2019/3/19
+* [592. Fraction Addition and Subtraction](https://leetcode.com/problems/fraction-addition-and-subtraction/)
+
+**思路**:
+1. 使用streamstream来分割字符串.可以直接把`-1/2`分成`int:-1, char:/, int:2`，也就是分子分母都出来了
+2. 每个分式运算时，都是不可约简的，则可以直接算出结果，然后共同除以分子分母的最大公约数即可
+
+[solution](source/592.FractionAdditionandSubtraction.cpp)
