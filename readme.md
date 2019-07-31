@@ -433,3 +433,17 @@ class Solution(object):
 
 
 [solution](source/746MinCostClimbingStairs.java)
+
+## 2019/8/1
+
+* [638. Shopping Offers](https://leetcode.com/problems/shopping-offers/)
+
+
+**思路**
+
+DFS
+
+记得递归调用返回时恢复修改的内容，使得回到上层时内容保持不变
+
+
+[solution](source/638ShoppingOffers.java)
