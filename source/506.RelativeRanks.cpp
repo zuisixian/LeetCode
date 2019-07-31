@@ -12,7 +12,7 @@ public:
             int idx = que.top().second;
             que.pop();
             if(i == 1)  ans[idx] = "Gold Medal";
-            else if (i == 2) ans[idx] = "Silve Medal";
+            else if (i == 2) ans[idx] = "Silver Medal";
             else if (i == 3) ans[idx] = "Bronze Medal";
             else  ans[idx] = to_string(i);
         }

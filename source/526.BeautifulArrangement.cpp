@@ -1,3 +1,5 @@
+//Just try every possible number at each position...
+
 class Solution {
 public:
     int count = 0;
