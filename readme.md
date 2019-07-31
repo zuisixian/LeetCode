@@ -419,3 +419,17 @@ class Solution(object):
 2. 每个分式运算时，都是不可约简的，则可以直接算出结果，然后共同除以分子分母的最大公约数即可
 
 [solution](source/592.FractionAdditionandSubtraction.cpp)
+
+## 2019/7/31
+* [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
+
+**思路**
+动态规划
+
+递推公式为：
+`val[i] = min(val[i-1] + cost[i-1], val[i-2] + cost[i-2])`
+
+注意初始值val[0], val[1]都为0
+
+
+[solution](source/746MinCostClimbingStairs.java)
