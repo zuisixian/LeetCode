@@ -447,3 +447,42 @@ DFS
 
 
 [solution](source/638ShoppingOffers.java)
+
+
+## 2019/8/1
+* [690. Employee Importance](https://leetcode.com/problems/employee-importance/)
+
+**思路**
+
+- 此题比较简单，先从employees这个List遍历查找到需要的id，然后加上自身的importance,
+再从subordinates中遍历，对该list中的值递归调用本函数即可。
+
+- 思路2：先对employees这个List建立id到employee的Hash映射表，这样更方便查找。
+
+
+
+- 思路3：将id加入Queue中，然后循环，直到该queue为空为止。
+
+``` java
+
+class Solution {
+    public int getImportance(List<Employee> employees, int id) {
+        Map<Integer, Employee> map = employees.stream()
+            .collect(Collectors.toMap(e -> e.id, e -> e));
+        Queue<Integer> ids = new LinkedList<>();
+        ids.add(id);
+        int result = 0;
+        while (!ids.isEmpty()) {
+            id = ids.remove();
+            Employee e = map.get(id);
+            result += e.importance;
+            e.subordinates.stream().forEach(s -> ids.add(s));
+        }
+        return result;
+    }
+}
+
+
+```
+
+[solution](source/690EmployeeImportance.java)
