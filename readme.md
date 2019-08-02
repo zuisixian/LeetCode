@@ -482,7 +482,14 @@ class Solution {
     }
 }
 
-
 ```
 
-[solution](source/690EmployeeImportance.java)
+## 2019/8/2
+
+* [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)
+
+**思路**
+- 并查集
+- DFS
+
+[solution](source/DFS/721AccountsMerge.java)
