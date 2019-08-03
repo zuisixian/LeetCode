@@ -493,3 +493,11 @@ class Solution {
 - DFS
 
 [solution](source/DFS/721AccountsMerge.java)
+
+## 2019/8/3
+* [752. Open the Lock](https://leetcode.com/problems/open-the-lock/)
+
+**思路**
+- BFS
+
+[solution](source/BFS/752OpenTheLock.cpp)
