@@ -514,3 +514,18 @@ class Solution {
 [Solution](source/DFS/733FloodFill.java)
 
 
+## 2019/8/5
+
+* [932. Beautiful Array](https://leetcode.com/problems/beautiful-array/)
+
+
+**思路**
+
+**Devide and Conquer**
+
+- devide之后如何merge
+
+
+[solution](source/devide-and-conquer/932.BeautifulArray.md)
+
+
