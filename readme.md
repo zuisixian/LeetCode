@@ -529,3 +529,16 @@ class Solution {
 [solution](source/devide-and-conquer/932.BeautifulArray.md)
 
 
+## 2019/8/6
+
+* [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+
+**有效队列**
+
+- 掌握如何使用最大堆和最小堆
+- C++默认最大堆，java默认最小堆
+- compare比较器的使用方法，严格验证弱序排列
+
+[soluton](source/devide-and-conquer/973KClosestPointstoOrigin.md)
+
+
