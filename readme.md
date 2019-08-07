@@ -542,3 +542,14 @@ class Solution {
 [soluton](source/devide-and-conquer/973KClosestPointstoOrigin.md)
 
 
+## 2019/8/7
+
+*[]()
+**思路**
+- **Hard**
+- 动态规划
+- so diffcult...
+
+[solution](source/devide-and-conquer/903.ValidPermutationsforDISequence.md)
+
+
