@@ -544,12 +544,22 @@ class Solution {
 
 ## 2019/8/7
 
-*[]()
+*[903. Valid Permutations for DI Sequence](https://leetcode.com/problems/valid-permutations-for-di-sequence/)
 **思路**
 - **Hard**
 - 动态规划
 - so diffcult...
 
 [solution](source/devide-and-conquer/903.ValidPermutationsforDISequence.md)
+
+
+## 2019/8/7
+
+*[725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)
+
+**思路**
+- 复习操作链表的方法
+
+[solution](source/LinkedList/725.SplitLinkedListinParts.md)
 
 
