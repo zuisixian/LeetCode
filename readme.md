@@ -562,4 +562,13 @@ class Solution {
 
 [solution](source/LinkedList/725.SplitLinkedListinParts.md)
 
+## 2019/8/5
+*[430. Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
+
+**思路**
+- 递归调用
+- Stack
+
+[solution](source/LinkedList/430.FlattenaMultilevelDoublyLinkedList.md)
+
 
