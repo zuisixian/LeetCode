@@ -54,6 +54,14 @@ H(p) = - sum(pi * log(pi))
 
 ## 马尔科夫链
 
+A是个二维矩阵，`a[i] for a in A`则表示取A举证的i列。
+
+```
+                    alphas[i][t] = np.dot(
+                        [alpha[t - 1] for alpha in alphas],
+                        [a[i] for a in A]) * B[i][indexOfO]  # 对应P176（10.16）
+```
+
 
 
 ## 概率图模型
