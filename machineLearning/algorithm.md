@@ -65,6 +65,7 @@ H(p) = - sum(pi * log(pi))
 
 ## Adaboost算法
 
+[Adaboost](AdaBoost.md)
 
 
 ## 马尔科夫链
