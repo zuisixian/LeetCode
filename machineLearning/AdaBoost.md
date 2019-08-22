@@ -1,4 +1,4 @@
-
+1. 测试时对训练数准确率才 40%，为什么。。
 
 ``` python
 import numpy as np
@@ -33,6 +33,7 @@ class AdaBoost:
         m = len(features)
         error = 100000.0  # 无穷大
         best_v = 0.0
+        best_direct = 'nagetive'
         # 单维features
         features_min = min(features)
         features_max = max(features)
@@ -73,7 +74,8 @@ class AdaBoost:
                     error = weight_error
                     compare_array = _compare_array
                     best_v = v
-        return best_v, direct, error, compare_array
+                    best_direct = direct
+        return best_v, best_direct, error, compare_array
 
     # 计算alpha
     def _alpha(self, error):
@@ -188,5 +190,27 @@ if __name__=="__main__":
     clf = AdaBoost(n_estimators=3, learning_rate=0.5)
     clf.fit(X, y)
     print(clf.score(X,y))
+
+```
+
+## result:
+
+```
+('alpha:', 0.4236489301936017)
+classifier:1/3 error:0.300 v:2.5 direct:nagetive a:0.42365
+weight:[0.07142857142857142, 0.07142857142857142, 0.07142857142857142, 0.07142857142857142, 0.07142857142857142, 0.07142857142857142, 0.16666666666666663, 0.16666666666666663, 0.16666666666666663, 0.07142857142857142]
+
+
+('alpha:', 0.6496414920651304)
+classifier:2/3 error:0.214 v:8.5 direct:nagetive a:0.64964
+weight:[0.04545454545454546, 0.04545454545454546, 0.04545454545454546, 0.16666666666666669, 0.16666666666666669, 0.16666666666666669, 0.10606060606060606, 0.10606060606060606, 0.10606060606060606, 0.04545454545454546]
+
+
+('alpha:', 0.752038698388137)
+classifier:3/3 error:0.182 v:5.5 direct:positive a:0.75204
+weight:[0.12499999999999996, 0.12499999999999996, 0.12499999999999996, 0.10185185185185185, 0.10185185185185185, 0.10185185185185185, 0.0648148148148148, 0.0648148148148148, 0.0648148148148148, 0.12499999999999996]
+
+
+1
 
 ```

@@ -43,6 +43,22 @@ H(p) = - sum(pi * log(pi))
 损失函数的最小化原则就是正则化的极大似然估计进行模型选择。
 
 
+
+## logistic Regression
+
+1. 梯度下降法
+
+
+
+
+predict = sigmoid(w*x)
+error = lable - predict
+dw += learning * error * X.T
+
+[logistic Regression](machineLearning\LogisticRegression.md)
+
+
+
 ## SVM
 
 1. 为什么要使用对偶问题求解
