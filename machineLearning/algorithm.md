@@ -42,6 +42,7 @@ H(p) = - sum(pi * log(pi))
 3. 剪枝
 损失函数的最小化原则就是正则化的极大似然估计进行模型选择。
 
+[Decision Tree](DecisionTree.md)
 
 
 ## logistic Regression
