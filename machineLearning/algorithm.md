@@ -20,6 +20,11 @@
 
 # 统计学习方法
 
+## KNN
+
+[KNN](KNearestNeighbors.md)
+
+
 ## 决策树
 
 步骤：
