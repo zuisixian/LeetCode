@@ -63,7 +63,15 @@ dw += learning * error * X.T
 
 [logistic Regression](machineLearning\LogisticRegression.md)
 
+## 神经网路
+1. 神经元模型
+2. 感知机和多层网络
+3. BP算法推导
+    - 标准BP
+    - 累计BP，一个epoch才更新，随机梯度下降法
+4. 其他类型神经网络
 
+todo :代码实现
 
 ## SVM
 
