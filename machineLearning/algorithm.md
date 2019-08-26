@@ -20,6 +20,14 @@
 
 # 统计学习方法
 
+
+## 感知机
+
+1. 线性分类，主要是学习其对偶形式
+
+[Perceptron](Perceptron.md)
+
+
 ## KNN
 
 [KNN](KNearestNeighbors.md)
@@ -111,3 +119,8 @@ A是个二维矩阵，`a[i] for a in A`则表示取A举证的i列。
 
 
 ## 概率图模型
+
+
+
+## Reference
+[lihang-code](https://github.com/fengdu78/lihang-code)
