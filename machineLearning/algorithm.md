@@ -140,6 +140,15 @@ KNN:监督的学习方法，泛化错误率不超过贝叶斯最优分类器的�
 
 ## 8/28 刷剧。。。
 
+## 特征选择与稀疏学习
+1. 特征选择
+    - 过滤式选择
+    - 包裹式选择
+2. 稀疏学习
+
+3. 压缩感知
+
+
 
 ## Reference
 [lihang-code](https://github.com/fengdu78/lihang-code)
