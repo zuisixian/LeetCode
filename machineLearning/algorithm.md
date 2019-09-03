@@ -224,6 +224,7 @@ KNN:监督的学习方法，泛化错误率不超过贝叶斯最优分类器的�
     - 直接模仿学习
     - 逆强化学习
 
+## TODO：对每章的算法使用MINST来验证
 
 ## Reference
 [lihang-code](https://github.com/fengdu78/lihang-code)
